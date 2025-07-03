@@ -4,7 +4,7 @@ How to Run:
 
 1. Clone the repository:
 
-git clone https://github.com/Tai2970/Restock-Alert-Algorithm.git
+git clone [https://github.com/Tai2970/Restock-Alert-Algorithm.git](https://github.com/Tai2970/Restock-Alert-Algorithm.git)
 cd Restock-Alert-Algorithm
 
 2. Make sure Python 3 is installed with the following packages:
