@@ -3,8 +3,9 @@ This project implements a lightweight restock alert system for supermarkets. The
 
 How to Run
 You must have Python 3 installed. Required packages:
-pandas
-tabulate
+
+- pandas
+- tabulate
 
 Step 1: Install Dependencies
 pip install pandas tabulate
@@ -12,11 +13,12 @@ pip install pandas tabulate
 Step 2: Run the Program
 python main.py
 
-Output
+Output:
 The script will simulate product sales and display:
-Runtime and peak memory usage
-Table of ALERT items (need restocking)
-Table of ORDER items (fully out of stock, with suggested order)
+
+- Runtime and peak memory usage
+- Table of ALERT items (need restocking)
+- Table of ORDER items (fully out of stock, with suggested order)
 
 Final Submission Tag
 This submission is tagged as: v1.0-final
