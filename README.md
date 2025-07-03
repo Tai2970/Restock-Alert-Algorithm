@@ -1,28 +1,25 @@
-A lightweight supermarket restock alert algorithm using POS data.
+README – Restock Alert Algorithm
+This project implements a lightweight restock alert system designed for supermarkets. The algorithm uses basic product information and simulated sales data to determine whether an item on the shelf needs to be restocked (ALERT) or reordered entirely (ORDER). It avoids the need for external sensors by calculating shelf quantity changes from point-of-sale behavior.
 
-How to Run:
+How to Run
+To run this project, you must have Python 3 installed on your machine. The only required packages are pandas and tabulate.
 
-1. Clone the repository:
-
-git clone [https://github.com/Tai2970/Restock-Alert-Algorithm.git](https://github.com/Tai2970/Restock-Alert-Algorithm.git)
-cd Restock-Alert-Algorithm
-
-2. Make sure Python 3 is installed with the following packages:
-
+First, install the required libraries using the command:
 pip install pandas tabulate
 
-3. Run the program:
-
+Then, run the program using this command:
 python main.py
 
-This algorithm simulates shelf quantity using POS sales and predefined shelf rules. It identifies items that require restocking (ALERT) or reordering (ORDER), assigns confirmation codes, and generates a suggested order report. No external sensors or system integration are required.
+The script will simulate product sales, update shelf quantities, and output:
 
-Runtime and memory usage are also printed for performance evaluation.
+Runtime and memory usage performance
 
-Screenshots of output:
+A table of ALERT items that require restocking
 
-Runtime + Peak Memory + Alert Summary
+A table of ORDER items that are fully out of stock and need to be reordered
 
-ALERT Items Table
+Final Submission Tag
+The final version of this project is tagged on GitHub as v1.0-final. Please refer to this tag for the official submission version. The link to the release is:
 
-ORDER Items Table with Suggested Order column
+[https://github.com/**YourUsername**/Restock-Alert-Algorithm/releases/tag/v1.0-final
+](https://github.com/Tai2970/Restock-Alert-Algorithm.git)
